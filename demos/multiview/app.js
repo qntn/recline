@@ -7,7 +7,7 @@ jQuery(function($) {
   // now create the multiview
   // this is rather more elaborate than the minimum as we configure the
   // MultiView in various ways (see function below)
-  window.multiview = createMultiView(dataset);
+  window.multiView = createMultiView(dataset);
 
   // last, we'll demonstrate binding to changes in the dataset
   // this will print out a summary of each change onto the page in the
